@@ -1,0 +1,4 @@
+include: package:surf_lint_rules/analysis_options.yaml
+
+formatter:
+  page_width: 80

@@ -1,0 +1,29 @@
+name: auto_route_example
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  auto_route: ^10.0.1
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  lottie: ^3.3.1
+  provider: ^6.1.4
+
+dev_dependencies:
+  auto_route_generator: ^10.0.1
+  build_runner: ^2.4.15
+  flutter_test:
+    sdk: flutter
+  surf_lint_rules: 4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+
