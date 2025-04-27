@@ -1,16 +1,16 @@
 # auto_route_example
 
-A new Flutter project.
+AutoRoute – это удобный в использовании пакет для навигации во Flutter, который значительно упрощает 
+управление маршрутами в вашем приложении.
 
-## Getting Started
+AutoRoute генерирует навигатор на основе ваших маршрутов, определенных либо с помощью аннотаций, 
+либо декларативно. Он предоставляет типобезопасную навигацию, упрощает передачу аргументов между страницами 
+и предлагает множество других полезных функций.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Преимущества AutoRoute:
+* Типобезопасность: AutoRoute генерирует код, который обеспечивает типобезопасную навигацию, уменьшая вероятность ошибок во время выполнения.
+* Уменьшение boilerplate кода: AutoRoute избавляет от необходимости вручную писать много boilerplate кода для навигации.
+* Простота использования: AutoRoute имеет простой и понятный API, который легко освоить.
+* Есть готовые решения для навигации по табам.
+* Гибкость: AutoRoute предлагает множество возможностей для настройки навигации, включая guards, transitions и custom routes.
+* Имеет подробную документацию.

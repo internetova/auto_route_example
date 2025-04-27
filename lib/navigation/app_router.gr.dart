@@ -64,6 +64,38 @@ class DetailColorRouteArgs {
 }
 
 /// generated route for
+/// [EnterOtpScreen]
+class EnterOtpRoute extends PageRouteInfo<void> {
+  const EnterOtpRoute({List<PageRouteInfo>? children})
+    : super(EnterOtpRoute.name, initialChildren: children);
+
+  static const String name = 'EnterOtpRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const EnterOtpScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [EnterPhoneScreen]
+class EnterPhoneRoute extends PageRouteInfo<void> {
+  const EnterPhoneRoute({List<PageRouteInfo>? children})
+    : super(EnterPhoneRoute.name, initialChildren: children);
+
+  static const String name = 'EnterPhoneRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const EnterPhoneScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [LoginScreen]
 class LoginRoute extends PageRouteInfo<void> {
   const LoginRoute({List<PageRouteInfo>? children})
@@ -123,6 +155,22 @@ class ProfileMainRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const ProfileMainScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [RegistrationFlow]
+class RegistrationRoute extends PageRouteInfo<void> {
+  const RegistrationRoute({List<PageRouteInfo>? children})
+    : super(RegistrationRoute.name, initialChildren: children);
+
+  static const String name = 'RegistrationRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return WrappedRoute(child: const RegistrationFlow());
     },
   );
 }

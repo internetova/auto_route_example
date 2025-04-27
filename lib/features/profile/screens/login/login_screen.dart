@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:auto_route_example/features/profile/services/auth_service.dart';
+import 'package:auto_route_example/navigation/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
@@ -44,6 +45,13 @@ class _LoginScreenState extends State<LoginScreen> {
                   context.read<AuthService>().login();
                 },
                 child: Text('Войти'),
+              ),
+              SizedBox(height: 8),
+              ElevatedButton(
+                onPressed: () {
+                  context.router.push(RegistrationRoute());
+                },
+                child: Text('Зарегистрироваться'),
               ),
               SizedBox(height: 36),
               Center(child: Lottie.asset(_animation))
